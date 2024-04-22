@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Contact</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="assets/css/style.css">
+     <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
+      <link rel="stylesheet" href="assets/css/vendor/font.awesome.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style type="text/css">
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+.contact-form{
+    position: relative;
+    min-height: 100vh;
+    z-index: 0;
+    background: #f9f9f9;
+    padding: 30px;
+    justify-content: center;
+    display: grid;
+    grid-template-rows: 1fr auto 1fr;
+    align-items: center;
+}
+.container{
+    max-width: 800px;
+    margin-top: 0 auto;
+}
+.contact-form h1{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 400;
+    
+    font-family: 'poppins';
+}
+.contact-form h2{
+    line-height: 40px;
+    margin-bottom: 5px;
+    font-size: 30px;
+    font-weight: 500;
+    color: #E72463;
+    text-align: center;
+}
+.contact-form .main{
+    position: relative;
+    display: flex;
+    margin: 30px 0;
+}
+.content{
+    flex-basis: 50%;
+    padding: 3em 3em;
+    background: #fff;
+    box-shadow: 2px 9px 49px -17px rgba(156, 39, 148, 0.1);
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.form-img{
+    flex-basis: 50%;
+    background: #f0f4f8;
+    background-size: cover;
+    padding: 40px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    align-items: center;
+    display: grid;
+}
+.form-img img{
+    max-width: 100%;
+}
+.btn,
+button,
+input{
+    border-radius: 35px;
+}
+.btn:hover,
+button:hover{
+    color: #97359c;
+    transition: 0.5s ease;
+}
+.contact-form form{
+    margin: 30px 0;
+}
+.contact-form input,
+textarea{
+    outline: none;
+    margin-bottom: 15px;
+    font-stretch: 16px;
+    color: #999;
+    padding: 14px 20px;
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    border: none;
+    background: #fcfcfc;
+    transition: 0.3s ease;
+}
+.contact-form input:focus{
+    background: transparent;
+    border: 1px solid #69275c;
+}
+.contact-form button{
+    font-size: 18px;
+    color: #fff;
+    width: 100%;
+    background: #E72463;
+    font-weight: 600;
+    transition: 0.3s ease;
+    padding: 14px 15px;
+    border: 1px solid #69275c;
+
+}
+@media(max-width:736px){
+    .contact-form .main{
+        flex-direction: column;
+    }
+    .contact-form form{
+        margin-top: 30px;
+        margin-bottom: 10px;
+
+    }
+    .form-img{
+        border-radius: 0;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+        order: 2;
+    }
+    .content{
+        order: 1;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+    }
+}
+.logo span{
+            color: #E72463;
+            text-transform: none;
+        }
+</style>
+</head>
+<body>
+      <header>
+            <div id="menu-bar" class="fa fa-bars"></div>
+            <a href="#" class="logo">Lux<span>Vogue</span></a>
+            <nav class="navbar">
+                <a href="index.html">Home</a>
+                <a href="#product">Product</a>
+                <a href="contact.html">Contacts</a>
+                <a href="About us.html">About us</a>
+            </nav>
+            <div class="icons">
+                <a href="#"><i class="fa fa-heart"></i></a>
+                <a href="#"><i class="fa fa-shopping-cart"></i></a>
+                <a href="#"><i class="fa fa-user"></i></a>
+            </div>
+        </header>
+   
+    <div class="contact-form">
+        
+        <div class="container">
+            <div class="main">
+                <div class="content">
+                    <h2>Contact Us</h2>
+                    <form action="#" method="post">
+                        <input type="text" name="name" placeholder="Enter Your Name">
+                      
+                        <input type="email" name="name" placeholder="Enter Your Email">
+                        <textarea name="message" placeholder="Your Message"></textarea>                   
+             <button type="submit" class="btn">Send <i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+                <div class="form-img">
+                    <img src="img/c.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div> 
+           <!--Footer Area Start-->
+           <footer class="footer-area">
+            <div class="footer-widget-area">
+                <div class="container container-default custom-area">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-custom">
+                            <div class="single-footer-widget m-0">
+                                <div class="footer-logo">
+                                    <a href="index.html">
+                                      <h2>LuxVogue</h2>
+                                    </a>
+                                </div>
+                                <p class="desc-content">follow our and subscribe to our pages on social media.</p>
+                                <div class="social-links">
+                                    <ul class="d-flex">
+                                        <li>
+                                            <a class="rounded-circle" href="#" title="Facebook">
+                                                <i class="fa fa-facebook-f"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="rounded-circle" href="#" title="Twitter">
+                                                <i class="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="rounded-circle" href="#" title="Linkedin">
+                                                <i class="fa fa-linkedin"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="rounded-circle" href="#" title="Youtube">
+                                                <i class="fa fa-youtube"></i>
+                                            </a>
+                                        </li>
+                                        
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-2 col-custom">
+                            <div class="single-footer-widget">
+                                <h2 class="widget-title">Information</h2>
+                                <ul class="widget-list">
+                                    <li><a href="About us.html">Our Company</a></li>
+                                    <li><a href="contact.html">Contact Us</a></li>
+                                    <li><a href="About us.html">Our Services</a></li>
+                                    <li><a href="About us.html">Why We?</a></li>
+                                    <li><a href="About us.html">Careers</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-2 col-custom">
+                            <div class="single-footer-widget">
+                                <h2 class="widget-title">Quicklink</h2>
+                                <ul class="widget-list">
+                                    <li><a href="About us.html">About</a></li>
+                                    <li><a href="Product.html">Product</a></li>
+                                    <li><a href="shop.html">Shop</a></li>
+                                    <li><a href="cart.html">Cart</a></li>
+                                    <li><a href="contact-.html">Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-2 col-custom">
+                            <div class="single-footer-widget">
+                                <h2 class="widget-title">Support</h2>
+                                <ul class="widget-list">
+                                    <li><a href="contact.html">Online Support</a></li>
+                                    <li><a href="contact.html">Shipping Policy</a></li>
+                                    <li><a href="contact.html">Return Policy</a></li>
+                                    <li><a href="Contact.html">Privacy Policy</a></li>
+                                    <li><a href="contact.html">Terms of Service</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-custom">
+                            <div class="single-footer-widget">
+                                <h2 class="widget-title">See Information</h2>
+                                <div class="widget-body">
+                                    <address>Maseru, Moshoeshoe road , Main south, .<br>Phone: 00 266 58909955<br>Email: info@flexstore.com</address>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright-area">
+                <div class="container custom-area">
+                    <div class="row">
+                        <div class="col-12 text-center col-custom">
+                            <div class="copyright-content">
+                                <p>Copyright © 2024 <a href="https://LuxVogue.com/" title="https://LuxVogue.com/">LuxVogue</a> </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--Footer Area End-->
+
+    <!-- Scroll to Top Start -->
+    <a class="scroll-to-top" href="#">
+        <i class="lnr lnr-arrow-up"></i>
+    </a>
+    <!-- Scroll to Top End -->
+</body>
+</html>
